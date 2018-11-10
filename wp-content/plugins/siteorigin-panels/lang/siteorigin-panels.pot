@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: compat/gutenberg-block.php:72
+#: compat/gutenberg-block.php:83
 msgid "You need to add a widget, row, or prebuilt layout before you'll see anything here. :)"
 msgstr ""
 
