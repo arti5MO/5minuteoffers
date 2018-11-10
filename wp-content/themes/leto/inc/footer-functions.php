@@ -36,14 +36,14 @@ function leto_footer_credits() {
 	    $credits = get_theme_mod( 'leto_footer_credits' );
 	?>
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'leto' ) ); ?>"><?php
+			<a href="<?php echo esc_url( __( 'http://www.5minuteoffers.com/', 'leto' ) ); ?>"><?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Powered by %s', 'leto' ), 'WordPress' );
+				printf( esc_html__( 'Powered by %s', 'leto' ), '5 Minute Offers' );
 			?></a>
 			<span class="sep"> | </span>
 			<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %2$s by %1$s.', 'leto' ), 'aThemes', '<a href="https://athemes.com/theme/leto/">Leto</a>' );
+				printf( esc_html__( 'All rights reserved  %s.', 'leto' ), date("Y"));
 			?>
 		</div><!-- .site-info -->
 	<?php	
